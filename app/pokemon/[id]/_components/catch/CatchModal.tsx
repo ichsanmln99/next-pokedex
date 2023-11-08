@@ -51,8 +51,8 @@ export default function CatchModal({
 
   return (
     <div>
-      <div className="flex h-screen w-screen bg-slate-800/30 fixed top-0 left-0 z-20 items-center justify-center pt-10">
-        <div className="bg-white max-w-lg w-full rounded-3xl px-6 py-10">
+      <div className="flex h-screen w-screen bg-slate-800/30 fixed top-0 left-0 z-20  justify-center pt-32">
+        <div className="bg-white max-w-lg w-full rounded-3xl px-6 py-10 h-fit">
           {catchInProgress && <CatchInProgress />}
 
           {!catchInProgress && catchSuccess && (
